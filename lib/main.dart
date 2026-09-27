@@ -628,7 +628,7 @@ class _LoginForm extends StatelessWidget {
                 controller: state._emailController,
                 keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(
-                  hintText: 'Enter your Employee Email',
+                  hintText: 'Enter your employee email',
                   prefixIcon: Icon(
                     Icons.person_outline_rounded,
                     size: 20,
@@ -637,7 +637,7 @@ class _LoginForm extends StatelessWidget {
                 validator: (value) {
                   if (value == null ||
                       value.trim().isEmpty) {
-                    return 'Please enter your username.';
+                    return 'Please enter your employee email.';
                   }
 
                   return null;
