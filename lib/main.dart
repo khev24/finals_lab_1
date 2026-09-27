@@ -628,7 +628,7 @@ class _LoginForm extends StatelessWidget {
                 controller: state._emailController,
                 keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(
-                  hintText: 'Enter your username',
+                  hintText: 'Enter your Employee Email',
                   prefixIcon: Icon(
                     Icons.person_outline_rounded,
                     size: 20,
