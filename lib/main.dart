@@ -619,7 +619,7 @@ class _LoginForm extends StatelessWidget {
               const SizedBox(height: 30),
 
               const _FormLabel(
-                text: 'Username',
+                text: 'Employee Email',
               ),
 
               const SizedBox(height: 8),
